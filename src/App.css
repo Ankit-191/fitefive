@@ -28,7 +28,6 @@
 .bg_card {
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.1);
-  height: 282px;
   border: 2px solid transparent;
 }
 .bg_card p {
@@ -46,4 +45,19 @@
 }
 .br_hoverred:hover {
   border: 2px solid #df381f;
+}
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.slick-slide > div {
+  display: flex;
+}
+@media (min-width: 992px) {
+  .bg_card {
+    height: 282px;
+  }
 }

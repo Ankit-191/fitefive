@@ -21,7 +21,7 @@ const Fitfive = ({
             {fitfive.map((card) => {
               return (
                 <Col lg={6} key={card.id} className="mt-3 pt-1">
-                  <div className={`bg_card d-flex flex-column ${hoverborder}`}>
+                  <div className={`bg_card h-100 d-flex flex-column ${hoverborder}`}>
                     <img
                       src={card.img}
                       alt=""
@@ -32,7 +32,7 @@ const Fitfive = ({
                     <h5 className="text-white mt-3 pt-1 pb-2 ps-4 ms-1">
                       {card.hading}
                     </h5>
-                    <p className="mb-0 text-white opacity-50">
+                    <p className="mb-0 text-white opacity-50 h-100">
                       {card.para}
                     </p>
                   </div>
