@@ -28,7 +28,6 @@
 .bg_card {
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.1);
-  border: 2px solid transparent;
 }
 .bg_card p {
   background: #242424;
@@ -39,22 +38,6 @@
   padding: 12px 24px;
   border-radius: 4px;
   background: linear-gradient(136deg, #df381f 0%, #aa0606 100%, #438308 100%);
-}
-.br_hovergreen:hover {
-  border: 2px solid #438308;
-}
-.br_hoverred:hover {
-  border: 2px solid #df381f;
-}
-.slick-track {
-  display: flex !important;
-}
-.slick-slide {
-  height: inherit !important;
-  display: flex !important;
-}
-.slick-slide > div {
-  display: flex;
 }
 @media (min-width: 992px) {
   .bg_card {

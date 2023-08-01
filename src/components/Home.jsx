@@ -15,7 +15,6 @@ const Home = () => {
         fitfiveimg={fitfivegreen}
         hadingtext="What we eat impacts our health and well-being on a fundamental level."
         fitfive={fitgreen}
-        hoverborder="br_hovergreen"
       />
     </div>
   );

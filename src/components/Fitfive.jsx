@@ -4,7 +4,6 @@ const Fitfive = ({
   hadingtext,
   children,
   fitfive,
-  hoverborder,
 }) => {
   return (
     <div>
@@ -21,7 +20,7 @@ const Fitfive = ({
             {fitfive.map((card) => {
               return (
                 <Col lg={6} key={card.id} className="mt-3 pt-1">
-                  <div className={`bg_card h-100 d-flex flex-column ${hoverborder}`}>
+                  <div className="bg_card d-flex flex-column">
                     <img
                       src={card.img}
                       alt=""
