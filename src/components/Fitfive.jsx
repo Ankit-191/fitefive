@@ -1,19 +1,19 @@
+import { Children } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-const Fitfive = ({
-  fitfiveimg,
-  hadingtext,
-  children,
-  fitfive,
-}) => {
+import { props } from "react";
+const Fitfive = ({ fitfiveimg, hadingtext, children, fitfive }) => {
+  // const childarray = Children.toArray(children);
   return (
     <div>
       <section className="bg-black py-5">
         <Container>
           <div className="text-center">
             <img src={fitfiveimg} alt="fitfive" />
+            {/* {childarray[0]} */}
             <p className="text-white mt-4 pt-1 opacity-50 px-5 mx-5">
               {hadingtext}
             </p>
+            {/* {childarray[1]} */}
             {children}
           </div>
           <Row className="mt-5 pt-4">
