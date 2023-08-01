@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1140px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn_cart {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #fff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn_allpages {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: #fff;
 }
-
-.App-link {
-  color: #61dafb;
+.bg_green {
+  background-color: green;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text_green {
+  color: green;
+}
+.bg_card {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  height: 282px;
+  border: 2px solid transparent;
+}
+.bg_card p {
+  background: #242424;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 37px 16px 30px;
+}
+.btn_gettouch {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: linear-gradient(136deg, #df381f 0%, #aa0606 100%, #438308 100%);
+}
+.br_hovergreen:hover {
+  border: 2px solid #438308;
+}
+.br_hoverred:hover {
+  border: 2px solid #df381f;
 }
