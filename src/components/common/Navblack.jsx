@@ -32,82 +32,20 @@ const Navblack = ({ bg_color, text_color, children, text_change }) => {
               <li>
                 <Link to="/" className="text-white">
                   Home
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M15 7.5L10 12.5L5 7.5"
-                      stroke="white"
-                      stroke-width="1.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-white">
                   About
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M15 7.5L10 12.5L5 7.5"
-                      stroke="white"
-                      stroke-width="1.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
                 </Link>
               </li>
               <li>
                 <Link to="/work" className="text-white">
                   Work
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M15 7.5L10 12.5L5 7.5"
-                      stroke="white"
-                      stroke-width="1.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
                 </Link>
               </li>
               <li>
-                <Link className="text-white">
-                  {text_change}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M15 7.5L10 12.5L5 7.5"
-                      stroke="white"
-                      stroke-width="1.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </Link>
+                <Link className="text-white">{text_change}</Link>
               </li>
               {children}
             </ul>

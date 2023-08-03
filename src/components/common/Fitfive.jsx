@@ -1,6 +1,5 @@
 import { Children } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { props } from "react";
 const Fitfive = ({ fitfiveimg, hadingtext, children, fitfive }) => {
   // const childarray = Children.toArray(children);
   return (

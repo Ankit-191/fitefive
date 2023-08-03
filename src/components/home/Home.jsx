@@ -1,8 +1,8 @@
 import React from "react";
-import Navblack from "./Navblack";
-import Fitfive from "./Fitfive";
-import fitfivegreen from "../assets/image/png/fitfivegreen.png";
-import { fitgreen } from "./common/help";
+import Navblack from "../common/Navblack";
+import Fitfive from "../common/Fitfive";
+import fitfivegreen from "../../assets/image/png/fitfivegreen.png";
+import { fitgreen } from "../common/help";
 const Home = () => {
   return (
     <div>
